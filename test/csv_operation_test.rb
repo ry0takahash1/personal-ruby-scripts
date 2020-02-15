@@ -1,11 +1,8 @@
-require "minitest/autorun"
-require "minitest/reporters"
+require "./test/base_test"
 require "./lib/csv_operation"
 
-Minitest::Reporters.use!
-
 # CSV操作テスト
-class CsvOperationTest < Minitest::Test
+class CsvOperationTest < BaseTest
   # 初期化テスト
   def test_initialize
     csv_operation = CsvOperation.new
