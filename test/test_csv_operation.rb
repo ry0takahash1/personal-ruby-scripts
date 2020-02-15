@@ -1,8 +1,8 @@
-require "./test/base_test"
+require "./test/test_helper"
 require "./lib/csv_operation"
 
 # CSV操作テスト
-class CsvOperationTest < BaseTest
+class TestCsvOperation < Minitest::Test
   # 初期化テスト
   def test_initialize
     csv_operation = CsvOperation.new
