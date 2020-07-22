@@ -1,10 +1,68 @@
+Layout/EmptyLinesAroundAttributeAccessor:
+  Enabled: true
+Layout/SpaceAroundMethodCallOperator:
+  Enabled: true
+Layout/LineLength:
+  Enabled: false
+Lint/DeprecatedOpenSSLConstant:
+  Enabled: true
+Lint/MixedRegexpCaptureTypes:
+  Enabled: true
+Lint/RaiseException:
+  Enabled: true
+Lint/StructNewOverride:
+  Enabled: true
+Lint/DuplicateElsifCondition:
+  Enabled: true
+Style/ExponentialNotation:
+  Enabled: true
+Style/HashEachMethods:
+  Enabled: true
+Style/HashTransformKeys:
+  Enabled: true
+Style/HashTransformValues:
+  Enabled: true
+Style/RedundantFetchBlock:
+  Enabled: true
+Style/RedundantRegexpCharacterClass:
+  Enabled: true
+Style/RedundantRegexpEscape:
+  Enabled: true
+Style/SlicingWithRange:
+  Enabled: true
 Style/StringLiterals:
   EnforcedStyle: "double_quotes"
 Style/FrozenStringLiteralComment:
   Enabled: false
-Style/Documentation:
+Style/SymbolArray:
+  Enabled: false
+Style/EmptyMethod:
+  Enabled: false
+Style/AsciiComments:
   Enabled: false
 Style/WordArray:
   Enabled: false
-Style/AsciiComments:
+Style/ClassAndModuleChildren:
+  Enabled: false
+Style/AccessorGrouping:
+  Enabled: true
+Style/ArrayCoercion:
+  Enabled: true
+Style/BisectedAttrAccessor:
+  Enabled: true
+Style/CaseLikeIf:
+  Enabled: true
+Style/HashAsLastArrayItem:
+  Enabled: true
+Style/HashLikeCase:
+  Enabled: true
+Style/RedundantAssignment:
+  Enabled: true
+Style/RedundantFileExtensionInRequire:
+  Enabled: true
+Bundler/OrderedGems:
+  Enabled: false
+Metrics/AbcSize:
+  Enabled: false
+Metrics/MethodLength:
   Enabled: false
